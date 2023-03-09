@@ -1,0 +1,5 @@
+{
+    "mdb.connectionSaving.defaultConnectionSavingLocation": "Workspace",
+    "mdb.confirmRunAll": true,
+    "mdb.showMongoDBHelpExplorer": false
+}
