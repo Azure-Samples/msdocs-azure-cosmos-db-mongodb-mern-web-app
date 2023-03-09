@@ -17,13 +17,11 @@
 - Run application in two terminals:
 
     ```bash
-    cd server
-    npm start
+    npm start --prefix server/
     ```
 
     ```bash
-    cd client
-    npm start
+    npm start --prefix client/
     ```
 
 - See front-end application at <http://localhost:3000>
@@ -33,7 +31,7 @@
 - `./.env`
 
     ```env
-    CONNECTION_STRING=<mongodb-connection-string>
+    CONNECTION_STRING=http://localhost:5000
     REACT_APP_API_ENDPOINT=http://localhost:65100
     ```
 
