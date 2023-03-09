@@ -1,0 +1,9 @@
+👋 Thanks for opening this MERN (MongoDB, Express, React, Node.js) stack application in GitHub Codespaces.
+   - This project connects to a MongoDB account and manages data in the cosmicworks database and products collection.
+   - This project uses Bootstrap and React for a front-end web interface. It uses Node.js, Express, and the MongoDB drivers for a HTTP API.
+
+🎓 This sample project was designed to be use as part of an Azure Cosmos DB for MongoDB tutorial
+   - Need to find the tutorial? https://aka.ms/cosmos-mongodb-mern-tutorial
+   - Want to learn more about Azure Cosmos DB for MongoDB? https://aka.ms/cosmos-mongodb-docs
+
+📋 Feel free to create a new repository from this template repo and build your own exciting projects!
