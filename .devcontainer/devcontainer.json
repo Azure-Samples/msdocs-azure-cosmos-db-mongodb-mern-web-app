@@ -1,9 +1,5 @@
 {
     "build": {
         "dockerfile": "Dockerfile"
-    },
-    "features": {
-        "ghcr.io/devcontainers-contrib/features/mongosh-homebrew:1": {},
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
     }
 }
