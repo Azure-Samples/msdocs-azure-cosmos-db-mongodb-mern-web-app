@@ -14,3 +14,5 @@ db.products.insertMany([
   { name: "Tuvila Hat", category: "hats", price: 120.00 },
   { name: "Klinto Hat", category: "hats", subcategory: "hats-beanies", price: 65.00 }
 ]);
+
+db.products.find({});
