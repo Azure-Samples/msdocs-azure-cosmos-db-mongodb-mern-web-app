@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/universal:linux
+FROM mcr.microsoft.com/devcontainers/universal:linux
 
 RUN apt-get update \
     && apt-get install gnupg
