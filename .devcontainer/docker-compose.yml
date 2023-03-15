@@ -10,9 +10,10 @@ services:
     networks:
       - default
     depends_on:
-      - testdb
-  testdb:
+      - db
+  db:
     image: mongo:6.0
+    hostname: localhost
     restart: unless-stopped
     expose:
       - 27017
