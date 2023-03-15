@@ -3,15 +3,15 @@
         "dockerfile": "Dockerfile"
     },
     "portsAttributes": {
-        "65200": {
+        "3000": {
             "label": "React Application",
             "onAutoForward": "openPreview"
         },
-        "65100": {
+        "5000": {
             "label": "Express API",
             "onAutoForward": "notify"
         },
-        "65000": {
+        "27017": {
             "label": "MongoDB",
             "onAutoForward": "notify"
         }
