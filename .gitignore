@@ -1,6 +1,9 @@
 # VS Code
 .vscode
 
+# Azure CLI
+.azure
+
 # Logs
 logs
 *.log
