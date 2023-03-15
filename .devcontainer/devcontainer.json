@@ -2,6 +2,16 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "dev",
 	"workspaceFolder": "/workspace",
+    "portsAttributes": {
+        "65200": {
+            "label": "React Application",
+            "onAutoForward": "openPreview"
+        },
+        "65100": {
+            "label": "Express API",
+            "onAutoForward": "notify"
+        }
+    },
     "customizations": {
         "vscode": {
             "settings": {
@@ -10,7 +20,6 @@
                 "mdb.showMongoDBHelpExplorer": false
             },
             "extensions": [
-                "ms-azuretools.vscode-docker",
                 "ms-vscode.azurecli",
                 "mongodb.mongodb-vscode"
             ]
