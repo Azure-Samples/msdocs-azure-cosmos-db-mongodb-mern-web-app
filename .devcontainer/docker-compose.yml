@@ -10,8 +10,8 @@ services:
     networks:
       - default
     depends_on:
-      - db
-  db:
+      - localdb
+  localdb:
     image: mongo:6.0
     hostname: localhost
     restart: unless-stopped
