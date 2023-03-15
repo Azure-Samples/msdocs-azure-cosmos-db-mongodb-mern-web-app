@@ -1,7 +1,7 @@
 {
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "dev",
-	"workspaceFolder": "/workspace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "portsAttributes": {
         "65200": {
             "label": "React Application",
@@ -10,10 +10,11 @@
         "65100": {
             "label": "Express API",
             "onAutoForward": "notify"
+        },
+        "65000": {
+            "label": "MongoDB",
+            "onAutoForward": "notify"
         }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "customizations": {
         "vscode": {
@@ -23,6 +24,7 @@
                 "mdb.showMongoDBHelpExplorer": false
             },
             "extensions": [
+                "ms-azuretools.vscode-docker",
                 "ms-vscode.azurecli",
                 "mongodb.mongodb-vscode"
             ]
